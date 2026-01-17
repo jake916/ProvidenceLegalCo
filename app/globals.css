@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles for Providence Legal Co. */
+@layer base {
+    body {
+        @apply bg-ivory-200 text-gray-900 antialiased;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-serif text-rose-800;
+    }
+
+    p {
+        @apply text-gray-700 leading-relaxed;
+    }
+}
+
+/* Custom component styles */
+@layer components {
+    .btn-primary {
+        @apply bg-rose-500 text-white px-8 py-3 rounded-md font-semibold hover:bg-rose-600 transition-all duration-300 shadow-md hover:shadow-lg;
+    }
+
+    .btn-secondary {
+        @apply bg-blush-300 text-rose-800 px-8 py-3 rounded-md font-semibold hover:bg-blush-400 transition-all duration-300 shadow-md hover:shadow-lg;
+    }
+
+    .btn-outline {
+        @apply border-2 border-rose-500 text-rose-500 px-8 py-3 rounded-md font-semibold hover:bg-rose-500 hover:text-white transition-all duration-300;
+    }
+
+    .section-container {
+        @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+    }
+
+    .card-hover {
+        @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+    }
+}
+
+/* Scroll Animation Keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@layer utilities {
+
+    /* Animation Classes */
+    .animate-fade-in {
+        animation: fadeIn 0.8s ease-out forwards;
+    }
+
+    .animate-slide-in-left {
+        animation: slideInLeft 0.8s ease-out forwards;
+    }
+
+    .animate-slide-in-right {
+        animation: slideInRight 0.8s ease-out forwards;
+    }
+
+    .animate-scale-in {
+        animation: scaleIn 0.6s ease-out forwards;
+    }
+
+    /* Scroll Reveal Classes */
+    .scroll-reveal {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+
+    .scroll-reveal.revealed {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .scroll-reveal-left {
+        opacity: 0;
+        transform: translateX(-50px);
+        transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+
+    .scroll-reveal-left.revealed {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .scroll-reveal-right {
+        opacity: 0;
+        transform: translateX(50px);
+        transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+
+    .scroll-reveal-right.revealed {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
