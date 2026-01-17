@@ -72,7 +72,7 @@ export default function AboutPage() {
                     <div className="section-container">
                         <ScrollReveal>
                             <div className="max-w-5xl mx-auto">
-                                <h2 className="text-4xl md:text-5xl font-bold mb-12 text-rose-800 text-center">Our Story</h2>
+                                <h3 className="text-4xl md:text-5xl font-bold mb-12 text-rose-800 text-center">Brand Story</h3>
 
                                 <div className="space-y-8 text-lg text-gray-700 leading-relaxed">
                                     <p>
@@ -83,15 +83,8 @@ export default function AboutPage() {
                                         We serve as trusted partners to innovators, creatives, and businesses — providing legal clarity, protecting intellectual property, and helping them structure for sustainable growth and investor readiness.
                                     </p>
 
-                                    <div className="border-t border-rose-200 my-8"></div>
 
                                     <div className="space-y-6">
-                                        <h3 className="text-2xl font-bold text-rose-700">Brand Story</h3>
-
-                                        <p>
-                                            The name <span className="font-semibold text-rose-700">Providence</span> reflects our conviction that every vision flourishes best under God's direction.
-                                        </p>
-
                                         <p>
                                             We combine sound legal expertise with foresight — ensuring that businesses, brands, and creative projects are not only protected today but also prepared for tomorrow.
                                         </p>

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Playfair_Display, Lora } from 'next/font/google'
 import './globals.css'
+import ScheduleButton from '@/components/ScheduleButton'
 
 const playfairDisplay = Playfair_Display({
     subsets: ['latin'],
@@ -27,7 +28,10 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en" className={`${playfairDisplay.variable} ${lora.variable}`}>
-            <body className="font-sans">{children}</body>
+            <body className="font-sans">
+                {children}
+                <ScheduleButton />
+            </body>
         </html>
     )
 }
