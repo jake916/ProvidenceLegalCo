@@ -35,11 +35,11 @@ export default function CreativeMediaPage() {
                             <div className="max-w-4xl mx-auto text-center">
                                 <h2 className="text-4xl md:text-5xl font-bold text-rose-800 mb-6">Legal Support for Creative Excellence</h2>
 
-                                <p className="text-xl text-gray-700 leading-relaxed mb-6">
+                                <p className="mb-6">
                                     We work closely with creatives, studios, and brands to protect creative rights and structure successful projects through production agreements, licensing, and IP ownership frameworks.
                                 </p>
 
-                                <p className="text-lg text-gray-700 leading-relaxed">
+                                <p>
                                     The creative and media industries require specialized legal expertise that understands both the artistic vision and commercial realities. From content creators to production companies, we provide comprehensive legal support that protects your creative work while enabling successful collaborations.
                                 </p>
                             </div>
@@ -117,10 +117,10 @@ export default function CreativeMediaPage() {
                         <ScrollReveal>
                             <div className="max-w-4xl mx-auto text-center">
                                 <h2 className="text-4xl font-bold text-rose-800 mb-8">Why Choose Providence Legal Co. for Creative & Media Legal Support?</h2>
-                                <p className="text-lg text-gray-700 leading-relaxed mb-8">
+                                <p className="mb-8">
                                     We understand the unique challenges of the creative and media industries. Our approach combines legal expertise with an appreciation for creative vision, ensuring your projects are legally protected without stifling innovation.
                                 </p>
-                                <p className="text-lg text-gray-700 leading-relaxed">
+                                <p>
                                     Whether you're an independent creator, a production company, or a media brand, we provide practical legal solutions that protect your creative rights and enable successful collaborations in an evolving digital landscape.
                                 </p>
                             </div>
@@ -136,7 +136,7 @@ export default function CreativeMediaPage() {
                             <p className="text-xl text-blush-100 mb-10 max-w-2xl mx-auto">
                                 Contact us today to discuss how we can support your creative projects and media ventures.
                             </p>
-                            <a href="#contact" className="btn-secondary inline-block">
+                            <a href="/contact" className="btn-secondary inline-block">
                                 Get Started
                             </a>
                         </ScrollReveal>

@@ -2,6 +2,7 @@ import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import BackToTop from '@/components/BackToTop'
 import ScrollReveal from '@/components/ScrollReveal'
+import ScheduleButton from '@/components/ScheduleButton'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -46,7 +47,7 @@ export default function PracticeAreasPage() {
                                         </svg>
                                     </div>
                                     <h3 className="text-2xl font-bold mb-4 text-rose-700">Intellectual Property Protection & Brand Assets</h3>
-                                    <p className="text-gray-700 leading-relaxed mb-6">
+                                    <p className="mb-6">
                                         We help clients secure, manage, and enforce the value embedded in their ideas and brands through trademark registration, copyright protection, and IP licensing.
                                     </p>
 
@@ -68,7 +69,7 @@ export default function PracticeAreasPage() {
                                         </svg>
                                     </div>
                                     <h3 className="text-2xl font-bold mb-4 text-rose-700">Business Structuring & Corporate Advisory</h3>
-                                    <p className="text-gray-700 leading-relaxed mb-6">
+                                    <p className="mb-6">
                                         We support businesses from formation through growth, restructuring, and maturity with company incorporation, shareholder agreements, and investor readiness support.
                                     </p>
                                     <Link href="/practice-areas/business-structuring" className="inline-flex items-center text-rose-600 font-semibold hover:text-rose-700 transition-colors duration-200 mt-4">
@@ -89,7 +90,7 @@ export default function PracticeAreasPage() {
                                         </svg>
                                     </div>
                                     <h3 className="text-2xl font-bold mb-4 text-rose-700">Contracts & Commercial Agreements</h3>
-                                    <p className="text-gray-700 leading-relaxed mb-6">
+                                    <p className="mb-6">
                                         We draft, review, and negotiate contracts that reflect commercial realities while managing risk, including service agreements, NDAs, and bespoke commercial contracts.
                                     </p>
                                     <Link href="/practice-areas/contracts-commercial" className="inline-flex items-center text-rose-600 font-semibold hover:text-rose-700 transition-colors duration-200 mt-4">
@@ -110,7 +111,7 @@ export default function PracticeAreasPage() {
                                         </svg>
                                     </div>
                                     <h3 className="text-2xl font-bold mb-4 text-rose-700">Creative & Media Industry Legal Support</h3>
-                                    <p className="text-gray-700 leading-relaxed mb-6">
+                                    <p className="mb-6">
                                         We work closely with creatives, studios, and brands to protect creative rights through production agreements, licensing, and IP ownership structuring.
                                     </p>
                                     <Link href="/practice-areas/creative-media" className="inline-flex items-center text-rose-600 font-semibold hover:text-rose-700 transition-colors duration-200 mt-4">
@@ -131,7 +132,7 @@ export default function PracticeAreasPage() {
                                         </svg>
                                     </div>
                                     <h3 className="text-2xl font-bold mb-4 text-rose-700">Regulatory & Compliance Advisory</h3>
-                                    <p className="text-gray-700 leading-relaxed mb-6">
+                                    <p className="mb-6">
                                         We help clients navigate regulatory requirements with clarity and efficiency, covering corporate compliance, advertising regulations, and risk mitigation strategies.
                                     </p>
                                     <Link href="/practice-areas/regulatory-compliance" className="inline-flex items-center text-rose-600 font-semibold hover:text-rose-700 transition-colors duration-200 mt-4">
@@ -152,7 +153,7 @@ export default function PracticeAreasPage() {
                                         </svg>
                                     </div>
                                     <h3 className="text-2xl font-bold mb-4 text-rose-700">Legal Strategy for Growth & Expansion</h3>
-                                    <p className="text-gray-700 leading-relaxed mb-6">
+                                    <p className="mb-6">
                                         We act as long-term legal partners with strategic services including legal frameworks for scaling, funding structures, and retainer-based general counsel services.
                                     </p>
                                     <Link href="/practice-areas/legal-strategy" className="inline-flex items-center text-rose-600 font-semibold hover:text-rose-700 transition-colors duration-200 mt-4">
@@ -175,9 +176,7 @@ export default function PracticeAreasPage() {
                             <p className="text-xl text-blush-100 mb-10 max-w-2xl mx-auto">
                                 Contact us today to discuss how we can support your legal needs and help your business thrive.
                             </p>
-                            <a href="#contact" className="btn-secondary inline-block">
-                                Schedule a Consultation
-                            </a>
+                            <ScheduleButton variant="inline" />
                         </ScrollReveal>
                     </div>
                 </section>

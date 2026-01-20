@@ -35,11 +35,11 @@ export default function BusinessStructuringPage() {
                             <div className="max-w-4xl mx-auto text-center">
                                 <h2 className="text-4xl md:text-5xl font-bold text-rose-800 mb-6">Building Strong Foundations for Your Business</h2>
 
-                                <p className="text-xl text-gray-700 leading-relaxed mb-6">
+                                <p className="mb-6">
                                     We support businesses from formation through growth, restructuring, and maturity with comprehensive corporate advisory services that align with your strategic objectives.
                                 </p>
 
-                                <p className="text-lg text-gray-700 leading-relaxed">
+                                <p>
                                     Whether you're launching a startup, scaling operations, or preparing for investment, we provide the legal infrastructure and strategic guidance to ensure your business is structured for success and positioned for sustainable growth.
                                 </p>
                             </div>
@@ -117,10 +117,10 @@ export default function BusinessStructuringPage() {
                         <ScrollReveal>
                             <div className="max-w-4xl mx-auto text-center">
                                 <h2 className="text-4xl font-bold text-rose-800 mb-8">Why Choose Providence Legal Co. for Business Structuring?</h2>
-                                <p className="text-lg text-gray-700 leading-relaxed mb-8">
+                                <p className="mb-8">
                                     We understand that the right business structure is foundational to long-term success. Our approach combines legal expertise with commercial insight to create structures that not only comply with regulations but also support your strategic vision and growth trajectory.
                                 </p>
-                                <p className="text-lg text-gray-700 leading-relaxed">
+                                <p>
                                     From startups to established enterprises, we provide tailored solutions that balance flexibility with protection, ensuring your business is built on solid legal foundations that can scale with your ambitions.
                                 </p>
                             </div>
@@ -136,7 +136,7 @@ export default function BusinessStructuringPage() {
                             <p className="text-xl text-blush-100 mb-10 max-w-2xl mx-auto">
                                 Contact us today to discuss how we can help build the legal foundation for your business growth.
                             </p>
-                            <a href="#contact" className="btn-secondary inline-block">
+                            <a href="/contact" className="btn-secondary inline-block">
                                 Get Started
                             </a>
                         </ScrollReveal>

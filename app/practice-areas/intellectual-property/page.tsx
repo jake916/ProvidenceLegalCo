@@ -35,11 +35,11 @@ export default function IntellectualPropertyPage() {
                             <div className="max-w-4xl mx-auto text-center">
                                 <h2 className="text-4xl md:text-5xl font-bold text-rose-800 mb-6">Protecting Your Ideas & Brand Value</h2>
 
-                                <p className="text-xl text-gray-700 leading-relaxed mb-6">
+                                <p className="mb-6">
                                     We help clients secure, manage, and enforce the value embedded in their ideas and brands through trademark registration, copyright protection, and IP licensing.
                                 </p>
 
-                                <p className="text-lg text-gray-700 leading-relaxed">
+                                <p>
                                     Your intellectual property is one of your most valuable assets. Whether you're a startup building a brand, a creative protecting your work, or an established business expanding your portfolio, we provide comprehensive legal support to safeguard your innovations and creative output.
                                 </p>
                             </div>
@@ -117,10 +117,10 @@ export default function IntellectualPropertyPage() {
                         <ScrollReveal>
                             <div className="max-w-4xl mx-auto text-center">
                                 <h2 className="text-4xl font-bold text-rose-800 mb-8">Why Choose Providence Legal Co. for IP Protection?</h2>
-                                <p className="text-lg text-gray-700 leading-relaxed mb-8">
+                                <p className="mb-8">
                                     We understand that your intellectual property represents years of creativity, innovation, and hard work. Our approach combines legal expertise with strategic business insight to ensure your IP assets are not just protected, but positioned for growth.
                                 </p>
-                                <p className="text-lg text-gray-700 leading-relaxed">
+                                <p>
                                     Whether you're launching a new brand, protecting creative content, or managing a complex IP portfolio, we provide tailored solutions that align with your business objectives and budget.
                                 </p>
                             </div>
@@ -136,7 +136,7 @@ export default function IntellectualPropertyPage() {
                             <p className="text-xl text-blush-100 mb-10 max-w-2xl mx-auto">
                                 Contact us today to discuss how we can help safeguard your ideas and brand assets.
                             </p>
-                            <a href="#contact" className="btn-secondary inline-block">
+                            <a href="/contact" className="btn-secondary inline-block">
                                 Get Started
                             </a>
                         </ScrollReveal>

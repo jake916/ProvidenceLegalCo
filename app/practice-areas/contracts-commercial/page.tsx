@@ -35,11 +35,11 @@ export default function ContractsCommercialPage() {
                             <div className="max-w-4xl mx-auto text-center">
                                 <h2 className="text-4xl md:text-5xl font-bold text-rose-800 mb-6">Contracts That Protect Your Interests</h2>
 
-                                <p className="text-xl text-gray-700 leading-relaxed mb-6">
+                                <p className="mb-6">
                                     We draft, review, and negotiate contracts that reflect commercial realities while managing risk, ensuring your business relationships are built on clear, enforceable agreements.
                                 </p>
 
-                                <p className="text-lg text-gray-700 leading-relaxed">
+                                <p>
                                     Every business relationship deserves a well-crafted contract. Whether you're entering into service agreements, partnership deals, or complex commercial transactions, we ensure your contracts are comprehensive, balanced, and aligned with your business objectives.
                                 </p>
                             </div>
@@ -117,10 +117,10 @@ export default function ContractsCommercialPage() {
                         <ScrollReveal>
                             <div className="max-w-4xl mx-auto text-center">
                                 <h2 className="text-4xl font-bold text-rose-800 mb-8">Why Choose Providence Legal Co. for Contract Services?</h2>
-                                <p className="text-lg text-gray-700 leading-relaxed mb-8">
+                                <p className="mb-8">
                                     We believe that great contracts are more than legal documents—they're tools for building successful business relationships. Our approach balances legal protection with commercial practicality, creating agreements that work in the real world.
                                 </p>
-                                <p className="text-lg text-gray-700 leading-relaxed">
+                                <p>
                                     Whether you need a simple NDA or a complex multi-party agreement, we deliver clear, enforceable contracts that protect your interests while facilitating smooth business operations.
                                 </p>
                             </div>
@@ -136,7 +136,7 @@ export default function ContractsCommercialPage() {
                             <p className="text-xl text-blush-100 mb-10 max-w-2xl mx-auto">
                                 Contact us today to discuss your contract needs and protect your business relationships.
                             </p>
-                            <a href="#contact" className="btn-secondary inline-block">
+                            <a href="/contact" className="btn-secondary inline-block">
                                 Get Started
                             </a>
                         </ScrollReveal>

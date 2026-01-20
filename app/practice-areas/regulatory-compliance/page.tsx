@@ -35,11 +35,11 @@ export default function RegulatoryCompliancePage() {
                             <div className="max-w-4xl mx-auto text-center">
                                 <h2 className="text-4xl md:text-5xl font-bold text-rose-800 mb-6">Navigate Regulations with Confidence</h2>
 
-                                <p className="text-xl text-gray-700 leading-relaxed mb-6">
+                                <p className="mb-6">
                                     We help clients navigate regulatory requirements with clarity and efficiency, covering corporate compliance, advertising regulations, and comprehensive risk mitigation strategies.
                                 </p>
 
-                                <p className="text-lg text-gray-700 leading-relaxed">
+                                <p>
                                     In an increasingly regulated business environment, compliance is not just about avoiding penalties—it's about building trust and operating with integrity. We provide proactive compliance solutions that protect your business while enabling growth and innovation.
                                 </p>
                             </div>
@@ -117,10 +117,10 @@ export default function RegulatoryCompliancePage() {
                         <ScrollReveal>
                             <div className="max-w-4xl mx-auto text-center">
                                 <h2 className="text-4xl font-bold text-rose-800 mb-8">Why Choose Providence Legal Co. for Regulatory & Compliance?</h2>
-                                <p className="text-lg text-gray-700 leading-relaxed mb-8">
+                                <p className="mb-8">
                                     We believe compliance should be practical, not burdensome. Our approach focuses on creating compliance frameworks that are proportionate to your business size and risk profile, ensuring you meet regulatory obligations without unnecessary complexity.
                                 </p>
-                                <p className="text-lg text-gray-700 leading-relaxed">
+                                <p>
                                     From startups navigating their first regulatory requirements to established businesses managing complex compliance programs, we provide clear guidance and actionable solutions that protect your business and build stakeholder confidence.
                                 </p>
                             </div>
@@ -136,7 +136,7 @@ export default function RegulatoryCompliancePage() {
                             <p className="text-xl text-blush-100 mb-10 max-w-2xl mx-auto">
                                 Contact us today to discuss how we can help you navigate regulatory requirements with confidence.
                             </p>
-                            <a href="#contact" className="btn-secondary inline-block">
+                            <a href="/contact" className="btn-secondary inline-block">
                                 Get Started
                             </a>
                         </ScrollReveal>

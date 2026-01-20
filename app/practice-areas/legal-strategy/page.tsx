@@ -35,11 +35,11 @@ export default function LegalStrategyPage() {
                             <div className="max-w-4xl mx-auto text-center">
                                 <h2 className="text-4xl md:text-5xl font-bold text-rose-800 mb-6">Your Long-Term Legal Partner for Growth</h2>
 
-                                <p className="text-xl text-gray-700 leading-relaxed mb-6">
+                                <p className="mb-6">
                                     We act as long-term legal partners with strategic services including legal frameworks for scaling, funding structures, and retainer-based general counsel services.
                                 </p>
 
-                                <p className="text-lg text-gray-700 leading-relaxed">
+                                <p>
                                     Sustainable growth requires more than reactive legal support—it demands strategic legal partnership. We work alongside ambitious businesses to build legal frameworks that support expansion, facilitate funding, and enable strategic opportunities while managing risk at every stage.
                                 </p>
                             </div>
@@ -117,10 +117,10 @@ export default function LegalStrategyPage() {
                         <ScrollReveal>
                             <div className="max-w-4xl mx-auto text-center">
                                 <h2 className="text-4xl font-bold text-rose-800 mb-8">Why Choose Providence Legal Co. as Your Growth Partner?</h2>
-                                <p className="text-lg text-gray-700 leading-relaxed mb-8">
+                                <p className="mb-8">
                                     We believe the best legal support is proactive, strategic, and aligned with your business objectives. Our approach goes beyond traditional legal services to provide genuine partnership that anticipates challenges and identifies opportunities.
                                 </p>
-                                <p className="text-lg text-gray-700 leading-relaxed">
+                                <p>
                                     Whether you're a high-growth startup or an established business pursuing new opportunities, we provide the strategic legal counsel you need to scale confidently, raise capital effectively, and execute on your vision.
                                 </p>
                             </div>
@@ -136,7 +136,7 @@ export default function LegalStrategyPage() {
                             <p className="text-xl text-blush-100 mb-10 max-w-2xl mx-auto">
                                 Contact us today to discuss how we can support your growth strategy and expansion plans.
                             </p>
-                            <a href="#contact" className="btn-secondary inline-block">
+                            <a href="/contact" className="btn-secondary inline-block">
                                 Get Started
                             </a>
                         </ScrollReveal>

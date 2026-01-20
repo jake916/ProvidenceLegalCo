@@ -131,7 +131,7 @@ export default function JoinUsPage() {
                             <p className="text-xl text-blush-100 mb-10 max-w-2xl mx-auto">
                                 We're always looking for talented professionals who share our values and commitment to excellence.
                             </p>
-                            <a href="#contact" className="btn-secondary inline-block">
+                            <a href="/contact" className="btn-secondary inline-block">
                                 Get in Touch
                             </a>
                         </ScrollReveal>

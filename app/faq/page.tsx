@@ -99,7 +99,7 @@ export default function FAQPage() {
                             <p className="text-xl text-blush-100 mb-10 max-w-2xl mx-auto">
                                 We're here to help. Contact us today to discuss your specific legal needs.
                             </p>
-                            <a href="#contact" className="btn-secondary inline-block">
+                            <a href="/contact" className="btn-secondary inline-block">
                                 Get in Touch
                             </a>
                         </ScrollReveal>

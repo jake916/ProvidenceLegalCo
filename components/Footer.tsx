@@ -19,11 +19,8 @@ export default function Footer() {
                                 className="h-14 w-auto"
                             />
                         </div>
-                        <p className="text-ivory-200 mb-4 leading-relaxed">
+                        <p className="text-ivory-200 mb-4">
                             Expert legal representation you can trust. Serving individuals and businesses with dedication and excellence.
-                        </p>
-                        <p className="text-ivory-200 text-sm">
-                            Faith, Foresight, Excellence
                         </p>
                     </div>
 

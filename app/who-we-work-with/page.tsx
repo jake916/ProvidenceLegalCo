@@ -63,7 +63,7 @@ export default function WhoWeWorkWithPage() {
                     <div className="section-container">
                         <ScrollReveal>
                             <div className="max-w-4xl mx-auto text-center">
-                                <p className="text-2xl text-gray-700 leading-relaxed">
+                                <p>
                                     We partner with people and organisations building with vision and intent.
                                 </p>
                             </div>
@@ -88,7 +88,7 @@ export default function WhoWeWorkWithPage() {
                                         <h3 className="text-2xl font-bold text-rose-800 mb-3">
                                             {client.title}
                                         </h3>
-                                        <p className="text-gray-700 leading-relaxed">
+                                        <p>
                                             {client.description}
                                         </p>
                                     </div>

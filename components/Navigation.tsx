@@ -52,14 +52,14 @@ export default function Navigation() {
                     }`}
             >
                 <div className="section-container">
-                    <div className="flex items-center justify-between h-24">
+                    <div className="flex items-center justify-between h-30">
                         {/* Logo - Bigger size */}
                         <Link href="/" className="flex items-center relative z-50">
                             <Image
                                 src="/assets/logo.png"
                                 alt="Providence Legal Co."
-                                width={100}
-                                height={50}
+                                width={120}
+                                height={100}
                                 className="h-50 w-auto"
                                 priority
                             />
@@ -138,8 +138,8 @@ export default function Navigation() {
                                         <button
                                             onClick={() => setOpenSubmenu(isSubmenuOpen ? null : link.name)}
                                             className={`w-full text-left py-4 text-2xl font-serif transition-all duration-300 border-b border-rose-300/30 flex items-center justify-between ${isActive
-                                                    ? 'text-rose-700 font-bold'
-                                                    : 'text-rose-800 hover:text-rose-600'
+                                                ? 'text-rose-700 font-bold'
+                                                : 'text-rose-800 hover:text-rose-600'
                                                 } ${isMobileMenuOpen
                                                     ? 'translate-x-0 opacity-100'
                                                     : 'translate-x-10 opacity-0'
@@ -188,8 +188,8 @@ export default function Navigation() {
                                     <Link
                                         href={link.href}
                                         className={`py-4 text-2xl font-serif transition-all duration-300 border-b border-rose-300/30 block ${isActive
-                                                ? 'text-rose-700 font-bold'
-                                                : 'text-rose-800 hover:text-rose-600'
+                                            ? 'text-rose-700 font-bold'
+                                            : 'text-rose-800 hover:text-rose-600'
                                             } ${isMobileMenuOpen
                                                 ? 'translate-x-0 opacity-100'
                                                 : 'translate-x-10 opacity-0'

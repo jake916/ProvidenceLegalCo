@@ -4,11 +4,33 @@ import { useState } from 'react';
 import { CalendarIcon } from '@heroicons/react/24/outline';
 import SchedulingModal from './SchedulingModal';
 
-export default function ScheduleButton() {
+interface ScheduleButtonProps {
+    variant?: 'floating' | 'inline';
+}
+
+export default function ScheduleButton({ variant = 'floating' }: ScheduleButtonProps) {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
+    if (variant === 'inline') {
+        return (
+            <>
+                <button
+                    onClick={() => setIsModalOpen(true)}
+                    className="btn-secondary inline-block"
+                >
+                    Schedule Now
+                </button>
+
+                <SchedulingModal
+                    isOpen={isModalOpen}
+                    onClose={() => setIsModalOpen(false)}
+                />
+            </>
+        );
+    }
+
     return (
-        <div>
+        <>
             <button
                 onClick={() => setIsModalOpen(true)}
                 className="fixed left-6 bottom-6 z-50 group"
@@ -35,6 +57,6 @@ export default function ScheduleButton() {
                 isOpen={isModalOpen}
                 onClose={() => setIsModalOpen(false)}
             />
-        </div>
+        </>
     );
 }

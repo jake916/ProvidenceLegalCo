@@ -80,17 +80,17 @@ export default function AboutPage() {
                                     </p>
 
                                     <p>
-                                        We serve as trusted partners to innovators, creatives, and businesses — providing legal clarity, protecting intellectual property, and helping them structure for sustainable growth and investor readiness.
+                                        We serve as trusted partners to innovators, creatives, and businesses, providing legal clarity, protecting intellectual property, and helping them structure for sustainable growth and investor readiness.
                                     </p>
 
 
                                     <div className="space-y-6">
                                         <p>
-                                            We combine sound legal expertise with foresight — ensuring that businesses, brands, and creative projects are not only protected today but also prepared for tomorrow.
+                                            We combine sound legal expertise with foresight, ensuring that businesses, brands, and creative projects are not only protected today but also prepared for tomorrow.
                                         </p>
 
                                         <p className="text-xl font-semibold text-rose-700 pt-4">
-                                            At Providence Legal Co., we see law as more than compliance — it's stewardship, structure, and purpose in action.
+                                            At Providence Legal Co., we see law as more than compliance, it's stewardship, structure, and purpose in action.
                                         </p>
                                     </div>
                                 </div>
@@ -111,25 +111,23 @@ export default function AboutPage() {
                                 {/* Text Content - Left */}
                                 <ScrollReveal delay={100}>
                                     <div className="space-y-6">
-                                        <h3 className="text-3xl font-bold text-rose-700">Leading with Vision & Integrity</h3>
+                                        <h3 className="text-3xl font-bold text-rose-700">Sylvia Eniang Essessien</h3>
 
-                                        <p className="text-lg text-gray-700 leading-relaxed">
-                                            Our founder brings a unique blend of legal expertise, business acumen, and a deep commitment to serving clients with excellence. With years of experience navigating complex legal landscapes, they established Providence Legal Co. to provide more than just legal services — to offer true partnership and strategic guidance.
+                                        <p>
+                                            Sylvia Eniang Essessien is the Founder and Principal Counsel of Providence Legal Co, a corporate and intellectual property law firm advising businesses in the creative, media, technology and consumer goods sectors.
                                         </p>
 
-                                        <p className="text-lg text-gray-700 leading-relaxed">
-                                            Driven by a passion for empowering businesses and creatives, our founder believes in the transformative power of sound legal counsel combined with forward-thinking strategy. Their approach is rooted in understanding each client's unique vision and helping them build sustainable, legally sound foundations for growth.
+                                        <p>
+                                            She is a Nigerian-qualified lawyer with an LL.M in Intellectual Property, Innovation & the Law from Swansea University (UK). Sylvia obtained her LL.B from Baze University, Abuja, and attended the Nigerian Law School, Bayelsa Campus, where she graduated top of her class. Her practice focuses on advising IP-driven and founder-led businesses on intellectual property protection, contract structuring, corporate governance and commercial risk management.
                                         </p>
 
-                                        <p className="text-lg text-gray-700 leading-relaxed">
-                                            Beyond legal practice, they are committed to mentorship, community development, and creating opportunities for the next generation of legal professionals and entrepreneurs.
+                                        <p>
+                                            Sylvia has advised companies within the creative and media space, including Magic Carpet Labs Limited, on content production agreements, complex commercial negotiations, investor arrangements and IP strategy. She also advises consumer goods companies operating across African markets on trademark and design protection, licensing, enforcement and cross-border commercial agreements.
                                         </p>
 
-                                        <div className="pt-4">
-                                            <p className="text-xl font-semibold text-rose-700">
-                                                "Every great vision deserves protection, structure, and purpose."
-                                            </p>
-                                        </div>
+                                        <p>
+                                            Through Providence Legal Co, Sylvia delivers commercially grounded, IP-focused legal support to businesses where intellectual property is a core asset.
+                                        </p>
                                     </div>
                                 </ScrollReveal>
 

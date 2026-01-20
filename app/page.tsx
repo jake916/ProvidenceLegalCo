@@ -17,10 +17,10 @@ export default function Home() {
                     <HeroSlider />
 
                     <div className="section-container relative z-10 text-center py-32">
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight text-ivory-50 animate-fade-in">
+                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight text-ivory-50 animate-fade-in">
                             Protecting What You Create <br />Structuring What You Build
                         </h1>
-                        <p className="text-2xl md:text-3xl lg:text-4xl font-serif text-blush-100 mb-12 animate-fade-in" style={{ animationDelay: '0.2s' }}>
+                        <p className="text-[20px] md:text-3xl lg:text-4xl font-serif italic text-blush-100 mb-12 animate-fade-in" style={{ animationDelay: '0.2s' }}>
                             Faith, Foresight, Excellence
                         </p>
                     </div>
@@ -40,10 +40,10 @@ export default function Home() {
                             <div className="max-w-4xl mx-auto text-center">
                                 <h2 className="text-5xl font-bold mb-8 text-rose-800">Our Story</h2>
                                 <div className="space-y-6 text-lg">
-                                    <p className="text-gray-700 leading-relaxed">
+                                    <p>
                                         Providence Legal Co. is a modern legal and business advisory firm built on the belief that every great enterprise begins with divine guidance, strategic structure, and unwavering integrity.
                                     </p>
-                                    <p className="text-gray-700 leading-relaxed">
+                                    <p>
                                         We serve as trusted partners to innovators, creatives, and businesses — providing legal clarity, protecting intellectual property, and helping them structure for sustainable growth and investor readiness.
                                     </p>
                                     <div className="pt-6">
@@ -77,7 +77,7 @@ export default function Home() {
                             <ScrollReveal delay={100}>
                                 <div className="bg-gradient-to-br from-rose-50 to-blush-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-rose-100 h-full">
                                     <h3 className="text-2xl font-bold mb-4 text-rose-700">Intellectual Property Protection & Brand Assets</h3>
-                                    <p className="text-gray-700 leading-relaxed">
+                                    <p>
                                         We help clients secure, manage, and enforce the value embedded in their ideas and brands through trademark registration, copyright protection, and IP licensing.
                                     </p>
                                 </div>
@@ -87,7 +87,7 @@ export default function Home() {
                             <ScrollReveal delay={200}>
                                 <div className="bg-gradient-to-br from-rose-50 to-blush-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-rose-100 h-full">
                                     <h3 className="text-2xl font-bold mb-4 text-rose-700">Business Structuring & Corporate Advisory</h3>
-                                    <p className="text-gray-700 leading-relaxed">
+                                    <p>
                                         We support businesses from formation through growth, restructuring, and maturity with company incorporation, shareholder agreements, and investor readiness support.
                                     </p>
                                 </div>
@@ -97,7 +97,7 @@ export default function Home() {
                             <ScrollReveal delay={300}>
                                 <div className="bg-gradient-to-br from-rose-50 to-blush-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-rose-100 h-full">
                                     <h3 className="text-2xl font-bold mb-4 text-rose-700">Contracts & Commercial Agreements</h3>
-                                    <p className="text-gray-700 leading-relaxed">
+                                    <p>
                                         We draft, review, and negotiate contracts that reflect commercial realities while managing risk, including service agreements, NDAs, and bespoke commercial contracts.
                                     </p>
                                 </div>
@@ -107,7 +107,7 @@ export default function Home() {
                             <ScrollReveal delay={400}>
                                 <div className="bg-gradient-to-br from-rose-50 to-blush-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-rose-100 h-full">
                                     <h3 className="text-2xl font-bold mb-4 text-rose-700">Creative & Media Industry Legal Support</h3>
-                                    <p className="text-gray-700 leading-relaxed">
+                                    <p>
                                         We work closely with creatives, studios, and brands to protect creative rights through production agreements, licensing, and IP ownership structuring.
                                     </p>
                                 </div>
@@ -117,7 +117,7 @@ export default function Home() {
                             <ScrollReveal delay={500}>
                                 <div className="bg-gradient-to-br from-rose-50 to-blush-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-rose-100 h-full">
                                     <h3 className="text-2xl font-bold mb-4 text-rose-700">Regulatory & Compliance Advisory</h3>
-                                    <p className="text-gray-700 leading-relaxed">
+                                    <p>
                                         We help clients navigate regulatory requirements with clarity and efficiency, covering corporate compliance, advertising regulations, and risk mitigation strategies.
                                     </p>
                                 </div>
@@ -127,7 +127,7 @@ export default function Home() {
                             <ScrollReveal delay={600}>
                                 <div className="bg-gradient-to-br from-rose-50 to-blush-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-rose-100 h-full">
                                     <h3 className="text-2xl font-bold mb-4 text-rose-700">Legal Strategy for Growth & Expansion</h3>
-                                    <p className="text-gray-700 leading-relaxed">
+                                    <p>
                                         We act as long-term legal partners with strategic services including legal frameworks for scaling, funding structures, and retainer-based general counsel services.
                                     </p>
                                 </div>
@@ -158,7 +158,7 @@ export default function Home() {
                             <div className="flex gap-6 justify-center">
                                 {/* LinkedIn */}
                                 <a
-                                    href="https://linkedin.com"
+                                    href="https://www.linkedin.com/company/providence-legal-co/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="w-16 h-16 bg-ivory-200 rounded-full flex items-center justify-center hover:bg-ivory-100 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-110"
@@ -171,7 +171,7 @@ export default function Home() {
 
                                 {/* Instagram */}
                                 <a
-                                    href="https://instagram.com"
+                                    href="https://www.instagram.com/providencelegal?igsh=YjlkbDhnaWpod3oz&utm_source=qr"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="w-16 h-16 bg-ivory-200 rounded-full flex items-center justify-center hover:bg-ivory-100 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-110"
@@ -184,7 +184,7 @@ export default function Home() {
 
                                 {/* TikTok */}
                                 <a
-                                    href="https://tiktok.com"
+                                    href="https://www.tiktok.com/@providence.legal?_r=1&_t=ZS-93E85V68oWC"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="w-16 h-16 bg-ivory-200 rounded-full flex items-center justify-center hover:bg-ivory-100 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-110"
