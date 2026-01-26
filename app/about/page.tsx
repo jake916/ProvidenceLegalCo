@@ -57,7 +57,7 @@ export default function AboutPage() {
                                         Above all, Providence Legal Co. exists to partner with visionaries, founders, creatives, and business leaders who are building with purpose and thinking long-term. We do not merely protect what exists; we help prepare what is coming.
                                     </p>
 
-                                    <p className="text-xl font-semibold text-rose-700 pt-6 text-center">
+                                    <p className="font-semibold text-rose-700 pt-6 text-center">
                                         At Providence Legal Co., the law is more than compliance.<br />
                                         It is structure with intention, protection with foresight, and purpose put into action.
                                     </p>
@@ -72,7 +72,7 @@ export default function AboutPage() {
                     <div className="section-container">
                         <ScrollReveal>
                             <div className="max-w-5xl mx-auto">
-                                <h3 className="text-4xl md:text-5xl font-bold mb-12 text-rose-800 text-center">Brand Story</h3>
+                                <h3 className="text-5xl md:text-5xl font-bold mb-12 text-rose-800 text-center">Brand Story</h3>
 
                                 <div className="space-y-8 text-lg text-gray-700 leading-relaxed">
                                     <p>
@@ -89,7 +89,7 @@ export default function AboutPage() {
                                             We combine sound legal expertise with foresight, ensuring that businesses, brands, and creative projects are not only protected today but also prepared for tomorrow.
                                         </p>
 
-                                        <p className="text-xl font-semibold text-rose-700 pt-4">
+                                        <p className="font-semibold text-rose-700 pt-4">
                                             At Providence Legal Co., we see law as more than compliance, it's stewardship, structure, and purpose in action.
                                         </p>
                                     </div>
@@ -111,7 +111,7 @@ export default function AboutPage() {
                                 {/* Text Content - Left */}
                                 <ScrollReveal delay={100}>
                                     <div className="space-y-6">
-                                        <h3 className="text-3xl font-bold text-rose-700">Sylvia Eniang Essessien</h3>
+                                        <h3 className="text-5xl font-bold text-rose-700">Sylvia Eniang Essessien</h3>
 
                                         <p>
                                             Sylvia Eniang Essessien is the Founder and Principal Counsel of Providence Legal Co, a corporate and intellectual property law firm advising businesses in the creative, media, technology and consumer goods sectors.

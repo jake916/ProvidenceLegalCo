@@ -49,10 +49,10 @@ export default function WhoWeWorkWithPage() {
                     <div className="absolute inset-0 bg-gradient-to-br from-rose-700/80 via-rose-600/75 to-rose-500/70" />
 
                     <div className="section-container relative z-10 text-center">
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-ivory-50 animate-fade-in">
+                        <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold text-ivory-50 animate-fade-in">
                             Who We Work With
                         </h1>
-                        <p className="text-xl md:text-2xl text-blush-100 mt-6 max-w-3xl mx-auto">
+                        <p className=" text-blush-100 mt-6 max-w-3xl mx-auto">
                             We partner with people and organisations building with vision and intent
                         </p>
                     </div>
@@ -102,8 +102,8 @@ export default function WhoWeWorkWithPage() {
                 <section className="py-24 bg-gradient-to-r from-rose-700 to-rose-600">
                     <div className="section-container text-center">
                         <ScrollReveal>
-                            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-ivory-50">Ready to Work Together?</h2>
-                            <p className="text-xl text-blush-100 mb-10 max-w-2xl mx-auto">
+                            <h2 className="text-5xl md:text-5xl font-bold mb-6 text-ivory-50">Ready to Work Together?</h2>
+                            <p className="text-blush-100 mb-10 max-w-2xl mx-auto">
                                 If you're building something meaningful and need strategic legal support, we'd love to hear from you.
                             </p>
                             <a href="/contact" className="btn-secondary inline-block">

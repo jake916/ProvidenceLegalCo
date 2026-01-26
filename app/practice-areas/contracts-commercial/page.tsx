@@ -133,7 +133,7 @@ export default function ContractsCommercialPage() {
                     <div className="section-container text-center">
                         <ScrollReveal>
                             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-ivory-50">Ready to Secure Your Business Agreements?</h2>
-                            <p className="text-xl text-blush-100 mb-10 max-w-2xl mx-auto">
+                            <p className="text-blush-100 mb-10 max-w-2xl mx-auto">
                                 Contact us today to discuss your contract needs and protect your business relationships.
                             </p>
                             <a href="/contact" className="btn-secondary inline-block">

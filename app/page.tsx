@@ -17,12 +17,15 @@ export default function Home() {
                     <HeroSlider />
 
                     <div className="section-container relative z-10 text-center py-32">
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight text-ivory-50 animate-fade-in">
-                            Protecting What You Create <br />Structuring What You Build
+                        <h1 className="flex flex-col gap-5 text-4xl md:text-5xl lg:text-6xl font-bold leading-none text-ivory-50 animate-fade-in">
+                            <span>Protecting What You Create</span>
+                            <span>Structuring What You Build</span>
                         </h1>
-                        <p className="text-[20px] md:text-3xl lg:text-4xl font-serif italic text-blush-100 mb-12 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-                            Faith, Foresight, Excellence
-                        </p>
+                        <div className="transform translate-y-36">
+                            <p className="text-[30px] md:text-30px lg:text-30px font-serif italic text-blush-100 mb-12 animate-fade-in" style={{ animationDelay: '0.2s' }}>
+                                Faith, Foresight, Excellence
+                            </p>
+                        </div>
                     </div>
 
                     {/* Scroll indicator */}
@@ -44,7 +47,7 @@ export default function Home() {
                                         Providence Legal Co. is a modern legal and business advisory firm built on the belief that every great enterprise begins with divine guidance, strategic structure, and unwavering integrity.
                                     </p>
                                     <p>
-                                        We serve as trusted partners to innovators, creatives, and businesses — providing legal clarity, protecting intellectual property, and helping them structure for sustainable growth and investor readiness.
+                                        We serve as trusted partners to innovators, creatives, and businesses providing legal clarity, protecting intellectual property, and helping them structure for sustainable growth and investor readiness.
                                     </p>
                                     <div className="pt-6">
                                         <Link href="/about" className="inline-flex items-center text-rose-600 font-semibold hover:text-rose-700 transition-colors duration-200">
@@ -66,7 +69,7 @@ export default function Home() {
                         <ScrollReveal>
                             <div className="text-center mb-16">
                                 <h2 className="text-5xl font-bold mb-4 text-rose-800">Our Practice Areas</h2>
-                                <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                                <p className="text-gray-600 max-w-3xl mx-auto">
                                     Comprehensive legal services tailored to protect your innovations and structure your growth
                                 </p>
                             </div>
@@ -150,7 +153,7 @@ export default function Home() {
                     <div className="section-container text-center">
                         <ScrollReveal>
                             <h2 className="text-5xl font-bold mb-6 text-ivory-50">Connect with us now</h2>
-                            <p className="text-xl text-blush-100 mb-10 max-w-2xl mx-auto">
+                            <p className="text-blush-100 mb-10 max-w-2xl mx-auto">
                                 Ready to discuss your legal needs? Our team is here to provide expert guidance and representation.
                             </p>
 

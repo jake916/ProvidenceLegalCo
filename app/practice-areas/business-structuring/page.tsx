@@ -22,7 +22,7 @@ export default function BusinessStructuringPage() {
                     <div className="absolute inset-0 bg-gradient-to-br from-rose-700/80 via-rose-600/75 to-rose-500/70" />
 
                     <div className="section-container relative z-10 text-center">
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-ivory-50 animate-fade-in">
+                        <h1 className="text-2xl md:text-3xl lg:text-6xl font-bold text-ivory-50 animate-fade-in">
                             Business Structuring & Corporate Advisory
                         </h1>
                     </div>
@@ -133,7 +133,7 @@ export default function BusinessStructuringPage() {
                     <div className="section-container text-center">
                         <ScrollReveal>
                             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-ivory-50">Ready to Structure Your Business for Success?</h2>
-                            <p className="text-xl text-blush-100 mb-10 max-w-2xl mx-auto">
+                            <p className="text-blush-100 mb-10 max-w-2xl mx-auto">
                                 Contact us today to discuss how we can help build the legal foundation for your business growth.
                             </p>
                             <a href="/contact" className="btn-secondary inline-block">

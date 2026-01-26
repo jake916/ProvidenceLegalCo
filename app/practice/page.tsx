@@ -173,7 +173,7 @@ export default function PracticeAreasPage() {
                     <div className="section-container text-center">
                         <ScrollReveal>
                             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-ivory-50">Ready to Get Started?</h2>
-                            <p className="text-xl text-blush-100 mb-10 max-w-2xl mx-auto">
+                            <p className="text-blush-100 mb-10 max-w-2xl mx-auto">
                                 Contact us today to discuss how we can support your legal needs and help your business thrive.
                             </p>
                             <ScheduleButton variant="inline" />
