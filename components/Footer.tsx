@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         <footer className="bg-rose-800 text-ivory-100 relative overflow-hidden">
             {/* Background Pattern */}
-            <div className="absolute inset-0 opacity-30 pointer-events-none">
+            <div className="absolute inset-0 opacity-25 pointer-events-none">
                 <Image
                     src="/assets/pattt.jpg"
                     alt="Pattern"
@@ -25,7 +25,7 @@ export default function Footer() {
                                 alt="Providence Legal Co."
                                 width={200}
                                 height={67}
-                                className="h-14 w-auto"
+                                className="h-24 w-auto"
                             />
                         </div>
                         <p className="text-ivory-200 mb-4">
