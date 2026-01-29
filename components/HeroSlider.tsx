@@ -4,9 +4,10 @@ import { useState, useEffect } from 'react'
 import Image from 'next/image'
 
 const heroImages = [
-    '/assets/hero-1.png',
+    '/assets/Logo mockup.jpg',
+    '/assets/lady-justice-statue-front-courthouse.jpg',
     '/assets/hero-2.png',
-    '/assets/hero-3.png',
+    '/assets/gavel-scales-justice-law-books.jpg',
     '/assets/hero-4.png',
 ]
 

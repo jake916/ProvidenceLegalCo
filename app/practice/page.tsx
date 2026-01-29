@@ -16,7 +16,7 @@ export default function PracticeAreasPage() {
                 <section className="relative h-[60vh] flex items-center justify-center text-white overflow-hidden">
                     {/* Background Image with Rose Gold Overlay */}
                     <Image
-                        src="/assets/hero-3.png"
+                        src="/assets/view-3d-justice-scales.jpg"
                         alt="Our Practice Areas"
                         fill
                         className="object-cover"

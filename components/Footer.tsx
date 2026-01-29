@@ -5,7 +5,16 @@ export default function Footer() {
     const currentYear = new Date().getFullYear()
 
     return (
-        <footer className="bg-rose-800 text-ivory-100">
+        <footer className="bg-rose-800 text-ivory-100 relative overflow-hidden">
+            {/* Background Pattern */}
+            <div className="absolute inset-0 opacity-30 pointer-events-none">
+                <Image
+                    src="/assets/pattt.jpg"
+                    alt="Pattern"
+                    fill
+                    className="object-cover"
+                />
+            </div>
             <div className="section-container py-12">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     {/* Firm Info */}

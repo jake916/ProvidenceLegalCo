@@ -13,7 +13,7 @@ export default function JoinUsPage() {
                 {/* Hero Section */}
                 <section className="relative h-[60vh] flex items-center justify-center text-white overflow-hidden">
                     <Image
-                        src="/assets/hero-1.png"
+                        src="/assets/still-life-with-scales-justice.jpg"
                         alt="Join Our Team"
                         fill
                         className="object-cover"

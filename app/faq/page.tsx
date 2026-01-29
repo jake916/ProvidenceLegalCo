@@ -53,7 +53,7 @@ export default function FAQPage() {
                 {/* Hero Section */}
                 <section className="relative h-[50vh] flex items-center justify-center text-white overflow-hidden">
                     <Image
-                        src="/assets/hero-3.png"
+                        src="/assets/research-literature-information-dictionary-background.jpg"
                         alt="Frequently Asked Questions"
                         fill
                         className="object-cover"

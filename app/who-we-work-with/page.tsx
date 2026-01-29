@@ -40,7 +40,7 @@ export default function WhoWeWorkWithPage() {
                 {/* Hero Section */}
                 <section className="relative h-[60vh] flex items-center justify-center text-white overflow-hidden">
                     <Image
-                        src="/assets/hero-3.png"
+                        src="/assets/grey-marble-column-details-building.jpg"
                         alt="Who We Work With"
                         fill
                         className="object-cover"
