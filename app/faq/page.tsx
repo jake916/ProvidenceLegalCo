@@ -65,7 +65,7 @@ export default function FAQPage() {
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-ivory-50 animate-fade-in">
                             Frequently Asked Questions
                         </h1>
-                        <p className="text-xl md:text-2xl text-blush-100 mt-6 max-w-3xl mx-auto">
+                        <p className=" text-blush-100 mt-6 max-w-3xl mx-auto">
                             Find answers to common questions about our services and how we can help your business
                         </p>
                     </div>
@@ -79,7 +79,7 @@ export default function FAQPage() {
                                 <h2 className="text-4xl md:text-5xl font-bold text-rose-800 mb-6">
                                     Common Questions
                                 </h2>
-                                <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                                <p className=" text-gray-600 max-w-3xl mx-auto">
                                     Have a question that's not answered here? Feel free to reach out to us directly.
                                 </p>
                             </div>
@@ -96,7 +96,7 @@ export default function FAQPage() {
                     <div className="section-container text-center">
                         <ScrollReveal>
                             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-ivory-50">Still Have Questions?</h2>
-                            <p className="text-xl text-blush-100 mb-10 max-w-2xl mx-auto">
+                            <p className="text-blush-100 mb-10 max-w-2xl mx-auto">
                                 We're here to help. Contact us today to discuss your specific legal needs.
                             </p>
                             <a href="/contact" className="btn-secondary inline-block">

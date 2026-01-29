@@ -58,19 +58,6 @@ export default function WhoWeWorkWithPage() {
                     </div>
                 </section>
 
-                {/* Introduction Section */}
-                <section className="py-16 bg-ivory-300">
-                    <div className="section-container">
-                        <ScrollReveal>
-                            <div className="max-w-4xl mx-auto text-center">
-                                <p>
-                                    We partner with people and organisations building with vision and intent.
-                                </p>
-                            </div>
-                        </ScrollReveal>
-                    </div>
-                </section>
-
                 {/* Client Types Grid */}
                 <section className="py-24 bg-gradient-to-br from-rose-50 to-blush-50">
                     <div className="section-container">
