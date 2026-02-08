@@ -42,7 +42,7 @@ export default function ContactPage() {
                                 <h2 className="text-4xl md:text-5xl font-bold text-rose-800 mb-6">
                                     Get in Touch
                                 </h2>
-                                <p className="text-xl text-gray-600">
+                                <p className="text-gray-600">
                                     We're here to answer your questions and discuss how we can help your business thrive.
                                 </p>
                             </div>

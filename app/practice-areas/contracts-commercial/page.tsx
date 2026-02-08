@@ -55,8 +55,8 @@ export default function ContractsCommercialPage() {
                             <ScrollReveal>
                                 <div className="relative h-[600px] rounded-2xl overflow-hidden shadow-2xl">
                                     <Image
-                                        src="/assets/hero-1.png"
-                                        alt="Contract Services"
+                                        src="/assets/high-angle-man-reading-contract.jpg"
+                                        alt="Contracts & Commercial Law Services"
                                         fill
                                         className="object-cover"
                                     />

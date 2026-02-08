@@ -55,7 +55,7 @@ export default function LegalStrategyPage() {
                             <ScrollReveal>
                                 <div className="relative h-[600px] rounded-2xl overflow-hidden shadow-2xl">
                                     <Image
-                                        src="/assets/hero-1.png"
+                                        src="/assets/gavel-justice-shattering.jpg"
                                         alt="Legal Strategy Services"
                                         fill
                                         className="object-cover"

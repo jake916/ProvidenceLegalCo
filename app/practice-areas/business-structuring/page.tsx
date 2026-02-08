@@ -55,7 +55,7 @@ export default function BusinessStructuringPage() {
                             <ScrollReveal>
                                 <div className="relative h-[600px] rounded-2xl overflow-hidden shadow-2xl">
                                     <Image
-                                        src="/assets/hero-1.png"
+                                        src="/assets/female-lawyer-desk-with-scales-justice.jpg"
                                         alt="Business Structuring Services"
                                         fill
                                         className="object-cover"
