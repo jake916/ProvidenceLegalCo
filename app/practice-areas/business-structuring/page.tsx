@@ -1,10 +1,16 @@
+'use client'
+
+import { useState } from 'react'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import BackToTop from '@/components/BackToTop'
 import ScrollReveal from '@/components/ScrollReveal'
+import SchedulingModal from '@/components/SchedulingModal'
 import Image from 'next/image'
 
 export default function BusinessStructuringPage() {
+    const [isSchedulingOpen, setIsSchedulingOpen] = useState(false)
+
     return (
         <>
             <Navigation />
@@ -101,9 +107,9 @@ export default function BusinessStructuringPage() {
                                     </ul>
 
                                     <div className="pt-8">
-                                        <a href="#contact" className="btn-primary inline-block">
+                                        <button onClick={() => setIsSchedulingOpen(true)} className="btn-primary">
                                             Schedule a Consultation
-                                        </a>
+                                        </button>
                                     </div>
                                 </div>
                             </ScrollReveal>
@@ -146,6 +152,7 @@ export default function BusinessStructuringPage() {
 
             <Footer />
             <BackToTop />
+            <SchedulingModal isOpen={isSchedulingOpen} onClose={() => setIsSchedulingOpen(false)} />
         </>
     )
 }
